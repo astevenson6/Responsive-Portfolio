@@ -216,15 +216,23 @@ input[type=submit] {
   border: 0 none;
 }
 
+/* My image is completely messing everything up */
+/* Think what happened is I changed something on first assignment and it is making it really hard for me to format because of how messed up layout is on my example. */
+/* Just looking at the original example it seems like for each px breakpoint I would need to change padding and line height for most of the sections as well as maybe some margins on the icons */
+
+
 @media screen and (max-width: 980px) {
   .container {
-    width:70%;
-  }
-  
+    width:70%;    
+  } 
 }
 @media screen and (max-width: 768px) {
-  
+  .container {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 640px) {
-  
+  .container {
+    width: 100%;
+  }  
 }
